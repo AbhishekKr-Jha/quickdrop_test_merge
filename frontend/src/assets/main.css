@@ -1,0 +1,36 @@
+*{box-sizing: border-box;
+  font-family: "Itim", cursive;
+}
+body{overflow-x: hidden;background-color: #0f172b;}
+
+@import './base.css';
+@import "tailwindcss";
+@import 'flowbite';
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Itim&display=swap');
+
+.blur-background{
+  -webkit-backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.096); 
+}
+
+.blur-display-card{
+  -webkit-backdrop-filter: blur(1px); 
+  backdrop-filter: blur(1px);
+  background-color: rgba(239, 237, 237, 0.4); 
+}
+
+input[type="text"]{
+  width: 90%;
+  background:transparent;
+  /* background-color: blue; */
+  padding:8px 10px !important ;
+  border: none;
+  border-bottom:1px solid gray ;
+  outline: none;
+  font-size: 18px;
+  /* border-radius: 8px; */
+margin: 0 auto;
+/* text-align: center; */
+}
+/* input[type="text"]:focus{outline: none;border: none;} */

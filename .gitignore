@@ -1,0 +1,6 @@
+# Ignore Docker Compose file(s)
+docker-compose.yml
+docker-compose.*.yml
+
+# Ignore all .pem files
+*.pem
